@@ -21,7 +21,7 @@ Verify Login
     ${CURRENT_URL}                  Get Location
     Should Contain                  ${CURRENT_URL}  welcome
 Do Appraisals
-    Set Selenium Speed              1 seconds
+    Set Selenium Speed              0.5 seconds
     Click Link                      id=149
     Click Button                    xpath=//input[@value='Add Record']
     Select From List by Value       id=businessunit_id           1
