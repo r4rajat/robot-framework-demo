@@ -43,3 +43,5 @@ or
 ```
 robot appraisal.bot
 ```
+
+You could check the detailed execution of the test cases in the default generated ```log.html``` file
